@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { HeaderBanner } from './components/HeaderBanner';
 import { HeroSection } from './components/HeroSection';
 import { ProblemSolution } from './components/ProblemSolution';
 import { WhatYouReceive } from './components/WhatYouReceive';
@@ -12,6 +11,7 @@ import { GuaranteeSection } from './components/GuaranteeSection';
 import { CheckoutModal } from './components/CheckoutModal';
 import { SocialProofToast } from './components/SocialProofToast';
 import { Footer } from './components/Footer';
+import { redirectToCheckout } from './utils/redirect';
 
 // Generated Asset Paths
 import listaMockup from './assets/images/lista_mockup_1785242350665.jpg';
@@ -23,7 +23,7 @@ export default function App() {
   const [isCheckoutOpen, setIsCheckoutOpen] = useState(false);
 
   const handleOpenCheckout = () => {
-    setIsCheckoutOpen(true);
+    redirectToCheckout();
   };
 
   const handleCloseCheckout = () => {
@@ -32,9 +32,6 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-cinza-escuro font-sans text-slate-100 antialiased selection:bg-pink-neon selection:text-white">
-      {/* Top Banner with Timer */}
-      <HeaderBanner />
-
       {/* Hero Section */}
       <HeroSection mockupImg={listaMockup} />
 
