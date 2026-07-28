@@ -14,10 +14,10 @@ import { Footer } from './components/Footer';
 import { redirectToCheckout } from './utils/redirect';
 
 // Generated Asset Paths
-import listaMockup from './assets/images/lista_mockup_1785242350665.jpg';
-import organizingImg from './assets/images/organizando_estoque_1785242364956.jpg';
-import productsImg from './assets/images/produtos_fornecedor_1785242376495.jpg';
-import accessImg from './assets/images/acesso_celular_1785242390373.jpg';
+import listaMockup from './assets/images/lista_mockup_1785242350665.webp';
+import organizingImg from './assets/images/organizando_estoque_1785242364956.webp';
+import productsImg from './assets/images/produtos_fornecedor_1785242376495.webp';
+import accessImg from './assets/images/acesso_celular_1785242390373.webp';
 
 export default function App() {
   const [isCheckoutOpen, setIsCheckoutOpen] = useState(false);
