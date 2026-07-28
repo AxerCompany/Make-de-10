@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@theme {
+  --color-rosa-claro: #FFD9EC;
+  --color-pink-neon: #FF3F8E;
+  --color-lilas: #CBA5FF;
+  --color-rose-gold: #C98B7D;
+  --color-dourado: #F2D16B;
+  --color-branco: #FFFFFF;
+  --color-cinza-escuro: #303030;
+  --color-cinza-fundo: #221A26;
+  --color-cinza-card: #2E2433;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.96); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+@keyframes slideIn {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.25s ease-out forwards;
+}
+
+.animate-slideIn {
+  animation: slideIn 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}

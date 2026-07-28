@@ -1,0 +1,6 @@
+{
+  "name": "Monte Sua Loja de R$10",
+  "description": "Página de alta conversão para a Lista Completa de Fornecedores de Lojas de R$10 com simuladores e área interativa.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

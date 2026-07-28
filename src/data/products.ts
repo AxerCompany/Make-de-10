@@ -1,0 +1,58 @@
+import { ProductMargin } from '../types';
+
+export const PRODUCT_MARGINS: ProductMargin[] = [
+  {
+    id: 'base',
+    name: 'Base Líquida HD',
+    category: 'Maquiagem',
+    costPrice: 2.80,
+    salePrice: 10.00,
+    salesPerDay: 5,
+    image: 'https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?w=300&auto=format&fit=crop&q=80',
+  },
+  {
+    id: 'gloss',
+    name: 'Gloss Labial Hialurônico',
+    category: 'Maquiagem',
+    costPrice: 1.90,
+    salePrice: 10.00,
+    salesPerDay: 8,
+    image: 'https://images.unsplash.com/photo-1586495777744-4413f21062fa?w=300&auto=format&fit=crop&q=80',
+  },
+  {
+    id: 'cilios',
+    name: 'Máscara de Cílios Volume',
+    category: 'Maquiagem',
+    costPrice: 2.50,
+    salePrice: 10.00,
+    salesPerDay: 6,
+    image: 'https://images.unsplash.com/photo-1591360236480-4ed861025fa1?w=300&auto=format&fit=crop&q=80',
+  },
+  {
+    id: 'sabonetes',
+    name: 'Sabonete Facial Skincare',
+    category: 'Cosméticos',
+    costPrice: 2.20,
+    salePrice: 10.00,
+    salesPerDay: 7,
+    image: 'https://images.unsplash.com/photo-1608248597262-8381ef9c70b5?w=300&auto=format&fit=crop&q=80',
+  },
+  {
+    id: 'pinceis',
+    name: 'Kit Pincéis de Maquiagem',
+    category: 'Acessórios',
+    costPrice: 2.90,
+    salePrice: 10.00,
+    salesPerDay: 4,
+    image: 'https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=300&auto=format&fit=crop&q=80',
+  },
+  {
+    id: 'organizador',
+    name: 'Organizador Acrílico Pequeno',
+    category: 'Utilidades',
+    costPrice: 3.10,
+    salePrice: 10.00,
+    salesPerDay: 5,
+    image: 'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=300&auto=format&fit=crop&q=80',
+  },
+];
