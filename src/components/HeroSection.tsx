@@ -90,7 +90,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ mockupImg }) => {
                     <div className="bg-cinza-escuro/90 border border-pink-neon/40 rounded-xl p-3 backdrop-blur-md w-full flex items-center justify-between">
                       <div>
                         <div className="text-xs font-bold text-lilas">Material Digital VIP</div>
-                        <div className="text-sm font-extrabold text-white">Lista Atualizada + Contatos Diretos</div>
+                        <div className="text-sm font-extrabold text-white">Lista Completa + Contatos Diretos</div>
                       </div>
                       <span className="bg-dourado text-cinza-escuro font-black text-xs px-2.5 py-1 rounded-lg shadow-sm">
                         R$ 19,90

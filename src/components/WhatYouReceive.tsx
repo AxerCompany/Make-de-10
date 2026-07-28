@@ -36,12 +36,12 @@ export const WhatYouReceive: React.FC<WhatYouReceiveProps> = () => {
             { text: 'Cosméticos', category: '✨ Cosméticos' },
             { text: 'Utilidades', category: '🏠 Utilidades' },
             { text: 'Acessórios', category: '💍 Acessórios' },
-            { text: 'Contatos atualizados', category: '📞 Contatos' },
+            { text: 'Contatos diretos', category: '📞 Contatos' },
             { text: 'WhatsApp quando disponível', category: '💬 WhatsApp Direct' },
             { text: 'Sites oficiais', category: '🌐 Links Diretos' },
             { text: 'Endereços', category: '📍 Localização' },
             { text: 'Muitos sem pedido mínimo', category: '📦 Fracionado' },
-            { text: 'Atualizações do material', category: '🔄 Acesso Contínuo' },
+            { text: 'Entrega imediata no e-mail', category: '⚡ Praticidade' },
           ].map((item, index) => (
             <div
               key={index}

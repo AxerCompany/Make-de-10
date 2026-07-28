@@ -25,7 +25,7 @@ export const OfferSection: React.FC<OfferSectionProps> = ({ onCtaClick }) => {
               Lista Completa de Fornecedores Para Loja de R$10
             </h2>
             <p className="text-pink-neon text-sm sm:text-base font-extrabold">
-              Acesso VIP vitalício com atualizações de fornecedores selecionados
+              Acesso VIP aos fornecedores selecionados
             </p>
           </div>
 
@@ -37,7 +37,7 @@ export const OfferSection: React.FC<OfferSectionProps> = ({ onCtaClick }) => {
               'Contatos organizados',
               'Sem pedido mínimo (quando disponível)',
               'Compra direto da fonte',
-              'Atualizações',
+              'Material 100% organizado',
             ].map((item, idx) => (
               <div key={idx} className="flex items-center gap-2.5">
                 <CheckCircle2 className="w-5 h-5 text-pink-neon shrink-0" />
