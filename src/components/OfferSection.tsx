@@ -2,10 +2,10 @@ import React from 'react';
 import { CheckCircle2, ShieldCheck, Zap, Lock, ArrowRight, Star, CreditCard, QrCode } from 'lucide-react';
 
 interface OfferSectionProps {
-  onCtaClick: () => void;
+  onCtaClick?: () => void;
 }
 
-export const OfferSection: React.FC<OfferSectionProps> = ({ onCtaClick }) => {
+export const OfferSection: React.FC<OfferSectionProps> = () => {
   return (
     <section id="oferta" className="py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-cinza-escuro via-cinza-fundo to-cinza-escuro text-white relative border-b border-lilas/20">
       {/* Background glow */}
@@ -64,13 +64,13 @@ export const OfferSection: React.FC<OfferSectionProps> = ({ onCtaClick }) => {
 
           {/* CTA Button */}
           <div className="space-y-4 text-center max-w-lg mx-auto">
-            <button
-              onClick={onCtaClick}
+            <a
+              href="https://pay.wiapy.com/6a6926ade481de2caf3e1de7"
               className="w-full bg-gradient-to-r from-pink-neon via-[#FF5AA0] to-dourado hover:opacity-95 text-cinza-escuro font-black text-lg sm:text-xl py-5 px-8 rounded-2xl shadow-xl shadow-pink-neon/25 transition-all transform hover:-translate-y-1 active:translate-y-0 cursor-pointer flex items-center justify-center gap-3 group"
             >
               <span>👉 LIBERAR MEU ACESSO AGORA</span>
               <ArrowRight className="w-6 h-6 text-cinza-escuro group-hover:translate-x-1 transition-transform" />
-            </button>
+            </a>
 
             {/* Payment Method Icons */}
             <div className="flex items-center justify-center gap-4 text-xs text-rosa-claro/80 pt-1">
