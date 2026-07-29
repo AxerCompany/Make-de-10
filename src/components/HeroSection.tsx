@@ -50,16 +50,8 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ mockupImg }) => {
               ))}
             </div>
 
-            {/* CTA Container */}
-            <div className="pt-4 space-y-3">
-              <a
-                href="#oferta"
-                className="w-full sm:w-auto bg-gradient-to-r from-pink-neon via-[#FF599A] to-dourado hover:opacity-95 text-cinza-escuro font-black text-lg sm:text-xl py-4 px-8 rounded-2xl shadow-lg shadow-pink-neon/25 hover:shadow-pink-neon/40 transition-all transform hover:-translate-y-0.5 active:translate-y-0 flex items-center justify-center gap-3 cursor-pointer group"
-              >
-                <span>👉 VER OFERTA ESPECIAL</span>
-                <ArrowRight className="w-5 h-5 text-cinza-escuro group-hover:translate-x-1 transition-transform" />
-              </a>
-
+            {/* Security Badges */}
+            <div className="pt-2">
               <div className="flex items-center justify-center lg:justify-start gap-4 text-xs text-rosa-claro/80 font-medium">
                 <span className="flex items-center gap-1">
                   <ShieldCheck className="w-4 h-4 text-pink-neon" /> Compra 100% Segura

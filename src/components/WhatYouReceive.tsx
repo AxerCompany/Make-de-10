@@ -156,13 +156,10 @@ export const WhatYouReceive: React.FC<WhatYouReceiveProps> = () => {
                     <span className="font-mono blur-[2px] select-none text-rosa-claro/40">(11) 9982*-****</span>
                   </div>
 
-                  <a
-                    href="#oferta"
-                    className="flex items-center gap-1.5 bg-pink-neon hover:bg-[#FF2E82] text-white text-xs font-bold px-3 py-1.5 rounded-lg transition-transform active:scale-95 cursor-pointer shadow-sm"
-                  >
+                  <div className="flex items-center gap-1.5 bg-[#3D1E31] text-pink-neon border border-pink-neon/30 text-xs font-bold px-3 py-1.5 rounded-lg shadow-sm">
                     <Lock className="w-3.5 h-3.5" />
-                    <span>Desbloquear Contato Direto</span>
-                  </a>
+                    <span>Contato Restrito</span>
+                  </div>
                 </div>
               </div>
             ))}
